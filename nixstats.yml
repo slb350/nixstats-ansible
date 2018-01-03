@@ -1,0 +1,7 @@
+- name: Nixstats Agent Installation
+  hosts: all
+  user: admin
+  gather_facts: true
+  sudo: yes
+  roles:
+    - nixstats
