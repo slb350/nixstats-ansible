@@ -1,0 +1,4 @@
+---
+
+- name: install the nixstats agent
+  shell: "wget --no-check-certificate -N https://www.nixstats.com/nixstatsagent.sh && bash nixstatsagent.sh '{{ usertoken }}'"
